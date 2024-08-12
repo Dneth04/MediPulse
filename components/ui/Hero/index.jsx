@@ -20,7 +20,7 @@ const Hero = () => (
                         Book an Appointment
                     </NavLink>
                     <a
-                href="https://github.com/web3templates/nextly-template/"
+                href="https://github.com/Dneth04/MediPulse"
                 target="_blank"
                 rel="noopener"
                 className="flex items-center space-x-2 text-gray-900 dark:text-black-400">
@@ -40,7 +40,7 @@ const Hero = () => (
                 </div>
                 <div className="flex justify-center">
                     <Image
-                        src={img} // replace with your image path
+                        src={img} 
                         width="300"
                         height="200"
                         className="object-cover"
