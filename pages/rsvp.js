@@ -93,6 +93,23 @@ export default function GetStarted() {
                     Submit
                   </button>
                 </div>
+                       <div style={{ marginTop: "20px", display: "flex", justifyContent: "center" }}>
+  <a
+    href="/" 
+    style={{
+      color: "black",
+      textDecoration: "none",
+      padding: "10px 20px",
+      fontSize: "16px",
+      borderRadius: "8px",
+      display: "flex",
+      alignItems: "center",
+    }}
+  >
+    <span style={{ marginRight: "8px" }}>&larr;</span> {/* Back arrow symbol */}
+    Back to Home
+  </a>
+</div>
               </form>
             </div>
           </div>
