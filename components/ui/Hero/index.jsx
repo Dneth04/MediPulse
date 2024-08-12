@@ -68,7 +68,7 @@ const Hero = () => (
     <ul className="text-gray-700 flex justify-center items-center space-y-6 md:space-x-6 md:space-y-0 md:text-gray-600 md:font-medium">
         <li>
             <NavLink
-                href="/chat"
+                href="https://medi-pulse-chatbot.vercel.app/"
                 className="block font-medium text-sm text-white bg-gray-800 hover:bg-gray-600 active:bg-gray-900 md:inline"
             >
                 Live-Chat Support
