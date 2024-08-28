@@ -43,9 +43,8 @@ export async function POST(req) {
   //parse the json body from the request
   const data = await req.text();
 
-  const result = await model.generateContentStream({
-    contents: [systemPrompt, ...data] // Include the system prompt and user messages
-  }
+  const result = await model.generateContentStream( [systemPrompt, ...data] // Include the system prompt and user messages
+  
   );
 
   // create a readable stream to handle the streaming response
